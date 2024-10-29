@@ -10,6 +10,6 @@ console.log(`/n MONGODB CONNECTED!!! DB Host : ${connectionInstance.connection.h
 catch (error){
 console.log("MONGODB ERROR",error)
 process.exit(1)
-}
+  }
 }
 export default connectDB
